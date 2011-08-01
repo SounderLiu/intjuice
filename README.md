@@ -1,62 +1,66 @@
 # IntJuice
 
-欢迎来到IntJuice项目。`i`和`j`，两个程序员最常用的循环变量。今天，我们拿这两个字母组成课件交流系统的开发代号，IntJuice。
+欢迎来到IntJuice项目。`i`和`j`，两个程序员最常用的循环变量。这两个字母打头的单词组成课件交流系统的开发代号，IntJuice。
 
 IntJuice要构建一个可分发的面向中国高校的课件交流系统。这个系统可配置地与云端交换资源索引，从而实现云端与客户端资源的互补互惠。
 
-## 特殊目录
+
+##目录结构
+
+### 特殊目录
 
 有几个特殊目录用来存储一些用于开发资料
 
 您可以继续添加一些对别人或自己有用的文件以及目录
 
-  |-- 工程设计  //需求分析一类文件
-  |   |-- ...
-  |-- 浓汤 //一些可以放在手边参考的资料
-  |   |-- Markdown.pdf //写readme.md时用到
+>  |-- 工程设计  //需求分析一类文件
+>  |   |-- ...
+>  |-- 浓汤 //一些可以放在手边参考的资料
+>  |   |-- Markdown.pdf //写readme.md时用到
 
 
-## Rails 目录结构
+### Rails 目录结构
 
 其余目录是按照rails 3的默认工程结构组织的
 
-  |-- app
-  |   |-- assets
-  |       |-- images
-  |       |-- javascripts
-  |       `-- stylesheets
-  |   |-- controllers
-  |   |-- helpers
-  |   |-- mailers
-  |   |-- models
-  |   `-- views
-  |       `-- layouts
-  |-- config
-  |   |-- environments
-  |   |-- initializers
-  |   `-- locales
-  |-- db
-  |-- doc
-  |-- lib
-  |   `-- tasks
-  |-- log
-  |-- public
-  |-- script
-  |-- test
-  |   |-- fixtures
-  |   |-- functional
-  |   |-- integration
-  |   |-- performance
-  |   `-- unit
-  |-- tmp
-  |   |-- cache
-  |   |-- pids
-  |   |-- sessions
-  |   `-- sockets
-  `-- vendor
-      |-- assets
-          `-- stylesheets
-      `-- plugins
+>  |-- app
+>  |   |-- assets
+>  |       |-- images
+>  |       |-- javascripts
+>  |       `-- stylesheets
+>  |   |-- controllers
+>  |   |-- helpers
+>  |   |-- mailers
+>  |   |-- models
+>  |   `-- views
+>  |       `-- layouts
+>  |-- config
+>  |   |-- environments
+>  |   |-- initializers
+>  |   `-- locales
+>  |-- db
+>  |-- doc
+>  |-- lib
+>  |   `-- tasks
+>  |-- log
+>  |-- public
+>  |-- script
+>  |-- test
+>  |   |-- fixtures
+>  |   |-- functional
+>  |   |-- integration
+>  |   |-- performance
+>  |   `-- unit
+>  |-- tmp
+>  |   |-- cache
+>  |   |-- pids
+>  |   |-- sessions
+>  |   `-- sockets
+>  `-- vendor
+>      |-- assets
+>          `-- stylesheets
+>      `-- plugins
+>
 
 app
   Holds all the code that's specific to this particular application.
