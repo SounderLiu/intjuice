@@ -13,54 +13,54 @@ IntJuice要构建一个可分发的面向中国高校的课件交流系统。这
 
 您可以继续添加一些对别人或自己有用的文件以及目录
 
->  |-- 工程设计  //需求分析一类文件
->  |   |-- ...
->  |-- 浓汤 //一些可以放在手边参考的资料
->  |   |-- Markdown.pdf //写readme.md时用到
+	  |-- 工程设计  //需求分析一类文件
+	  |   |-- ...
+	  |-- 浓汤 //一些可以放在手边参考的资料
+	  |   |-- Markdown.pdf //写readme.md时用到
 
 
 ### Rails 目录结构
 
 其余目录是按照rails 3的默认工程结构组织的
 
->  |-- app
->  |   |-- assets
->  |       |-- images
->  |       |-- javascripts
->  |       `-- stylesheets
->  |   |-- controllers
->  |   |-- helpers
->  |   |-- mailers
->  |   |-- models
->  |   `-- views
->  |       `-- layouts
->  |-- config
->  |   |-- environments
->  |   |-- initializers
->  |   `-- locales
->  |-- db
->  |-- doc
->  |-- lib
->  |   `-- tasks
->  |-- log
->  |-- public
->  |-- script
->  |-- test
->  |   |-- fixtures
->  |   |-- functional
->  |   |-- integration
->  |   |-- performance
->  |   `-- unit
->  |-- tmp
->  |   |-- cache
->  |   |-- pids
->  |   |-- sessions
->  |   `-- sockets
->  `-- vendor
->      |-- assets
->          `-- stylesheets
->      `-- plugins
->
+	  |-- app
+	  |   |-- assets
+	  |       |-- images
+	  |       |-- javascripts
+	  |       `-- stylesheets
+	  |   |-- controllers
+	  |   |-- helpers
+	  |   |-- mailers
+	  |   |-- models
+	  |   `-- views
+	  |       `-- layouts
+	  |-- config
+	  |   |-- environments
+	  |   |-- initializers
+	  |   `-- locales
+	  |-- db
+	  |-- doc
+	  |-- lib
+	  |   `-- tasks
+	  |-- log
+	  |-- public
+	  |-- script
+	  |-- test
+	  |   |-- fixtures
+	  |   |-- functional
+	  |   |-- integration
+	  |   |-- performance
+	  |   `-- unit
+	  |-- tmp
+	  |   |-- cache
+	  |   |-- pids
+	  |   |-- sessions
+	  |   `-- sockets
+	  `-- vendor
+	      |-- assets
+		  `-- stylesheets
+	      `-- plugins
+
 
 app
   Holds all the code that's specific to this particular application.
